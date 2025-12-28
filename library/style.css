@@ -1,0 +1,93 @@
+body {
+    background-color: wheat;
+}
+
+.container-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 70vw;
+    margin: 5vh auto;
+    border-radius: 15px;
+    padding: 2vh 2vw;
+}
+
+#text {
+    font-size: 20px;
+}
+
+.right-side {
+    margin: auto 2vw;
+}
+
+#addButton {
+    height: 6vh;
+    width: 9vw;
+    background-color: #ac754c;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 0;
+}
+
+#bookForm {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh auto;
+    background-color: white;
+    padding: 5vh 2vw;
+    border-radius: 15px;
+    width: 70vw;
+}
+
+.form-grid {
+    display: grid;
+    gap: 12px 16px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vw;
+}
+
+.checkbox {
+    display: flex;
+    align-items: end;
+    margin-left: 2vw;
+}
+
+#button-primary {
+    height: 6vh;
+    width: 9vw;
+    background-color: #ac754c;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 0;
+    direction: flex;
+    text-align: center;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+#libraryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 3vw;
+    margin: 0 12.5vw;
+}
+
+.book-card {
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 2vw;
+    padding-bottom: 3vh;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-box">
+        <div class="left-side">
+            <h1 id="title">Personal Library</h1>
+            <p id="text">This library is created to list your book history and wishlist.</p>
+        </div>
+        <div class="right-side">
+            <button type="button" id="addButton">+ Add Book</button>
+        </div>
+    </div>
+    <form id="bookForm" class="cardform">
+        <div class="form-grid">
+            <label class="field">
+                <span>Title</span>
+                <input type="text" id="titleInput" required placeholder="The Name of the Wind">
+            </label>
+            <label class="field">
+                    <span>Author</span>
+                    <input type="text" id="authorInput" required placeholder="Patrick Rothfuss">
+            </label>
+            <label class="field">
+                    <span>Pages</span>
+                    <input type="number" id="pagesInput" required placeholder="320">
+            </label>
+            <label class="checkbox">
+                    <input type="checkbox" id="isReadInput">
+                    <span>Already read</span>
+            </label>
+        </div>
+        <div class="form-actions">
+            <button type="submit" id="button-primary">Add book</button>
+        </div>        
+    </form>
+    <div id="libraryGrid"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
